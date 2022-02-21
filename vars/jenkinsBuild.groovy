@@ -17,7 +17,7 @@ environment {
 	stages {
 		stage("POLL SCM"){
 			steps {
-				  git branch: 'main', url: 'https://github.com/JevitaD/nodejs-k8s.git'
+				  git branch: 'main', url: 'https://github.com/swathi431/nodejs-k8s.git'
 			}
 		}	
 					
